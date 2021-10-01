@@ -1,11 +1,11 @@
 body {
-  background-image: linear-gradient(to right top, #008c45, #559f5c, #82b278, #a9c598, #ccd9bb, #d0d6b4, #d5d3ae, #dbd0a9, #d4b077, #d28b4d, #d16132, #cd212a);
+  background-image:url(images/bg.jpg)
 }
 
 #distop {
     background-image:
     linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
-    url('images/crust-delicious-dinner-2271194-okbumm3a584r1106mitw5k1mo1ca360o2vfjnfdtfk.jpg');
+    url('images/pizza-fond.jpg');
     color: white;
     padding: 20px;
     background-repeat: no-repeat;
@@ -20,9 +20,34 @@ body {
     padding: 1.5em;
     transition: 0.3s;
     color: #fff;
+    text-transform: uppercase;
 }
 
 #distop a:hover {
     background-color: #fff;
     color: #000000;
+}
+
+#pates {
+    background-image:
+    linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
+    url('images/patesAemporter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pizzap {
+    background-image:
+    linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
+    url('images/makingPizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pizzal {
+    background-image:
+    linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
+    url('images/learningPizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
