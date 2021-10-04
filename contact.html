@@ -12,7 +12,7 @@
 	<body>
 		<main>
 			<!--navbar-->
-			<nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+			<nav class="navbar navbar-dark bg-dark" aria-label="First navbar example" id="navanchor">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#">La villa toriani</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -46,13 +46,93 @@
 					</div>
 				</div>
 			</section>
-			<!--blocks services-->
-			
+			<!--contact block-->
+			<section>
+				<div class="container pt-5">
+					<div class="row">
+						<div class="col">
+							<div class="card">
+								<div class="card-header bg-primary text-white">
+									<i class="fa fa-envelope"></i>
+									Nous contacter
+								</div>
+								<div class="card-body">
+									<form>
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+										</div>
+										<div class="form-group">
+											<label for="email">Email address</label>
+											<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+											<small id="emailHelp" class="form-text text-muted">
+												We'll never share your email with anyone else.
+											</small>
+										</div>
+										<div class="form-group">
+											<label for="message">Message</label>
+											<textarea class="form-control" id="message" rows="6" required></textarea>
+										</div>
+										<div class="mx-auto">
+											<button type="submit" class="btn btn-primary text-right mt-2">Submit</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container py-5">
+					<div class="row">
+						<div class="col-12 col-sm-4">
+							<div class="card bg-light mb-3">
+								<div class="card-header bg-success text-white text-uppercase">
+									<i class="fa fa-home"></i>
+									Nos Coordonnées
+								</div>
+								<div class="card-body">
+									<p>
+										15 rue Saint-Jacques
+									</p>
+									<p>
+										59400 Cambrai
+									</p>
+									<p>
+										France
+									</p>
+									<p>
+										Email : email@example.com
+									</p>
+									<p>
+										Tel. +33327781793
+									</p>
+								</div>
+							</div>
+						</div>
+                        <div class="col-12 col-sm-8">
+							<div class="card bg-light mb-3">
+								<div class="card-header bg-success text-white text-uppercase">
+									<i class="fa fa-home"></i>
+									Nous retrouver sur Google MAPS
+								</div>
+								<div class="card-body">
+									<iframe class="h-100 w-100 p-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2555.2761981100807!2d3.2352725159483176!3d50.17467201507813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2bb7e7c382f71%3A0x4525efe47894a513!2sLa%20Villa%20Toriani!5e0!3m2!1sfr!2sfr!4v1633368762628!5m2!1sfr!2sfr" width="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<!-- Optional JavaScript; choose one of the two! -->
-		<!-- Option 1: Bootstrap Bundle with Popper --><footer class="fond" style="background-color:rgba(0, 0, 0, 0.50);" style="background-position: bottom;">
-        <div class="text-center p-3" style="color: white;">Placeholder footer</div>
-      </footer>
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<footer class="fond" style="background-color:rgba(0, 0, 0, 0.50);" style="background-position: bottom;">
+			<div class="text-center p-3" style="color: white;">
+				<a href="#navanchor">Retourner en haut de la page</a>
+			</div>
+		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<!-- Option 2: Separate Popper and Bootstrap JS -->
 		<!--
@@ -61,3 +141,4 @@
 		-->
 	</body>
 </html>
+
