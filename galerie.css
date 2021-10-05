@@ -1,0 +1,17 @@
+body{
+  background-image: url(image/fond_galerie.jpg);
+  background-position: fixed;
+  background-size: 2500px;
+
+  cursor: url(image/cursor.png);
+}
+
+.navbar{
+  margin-bottom: 20px;
+}
+
+.row{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
