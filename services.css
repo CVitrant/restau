@@ -2,6 +2,8 @@ body {
   background-image:url(images/bg.jpg)
 }
 
+/* pizza banner*/
+
 #distop {
     background-image:
     linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
@@ -28,6 +30,7 @@ body {
     color: #000000;
 }
 
+/*service page blocks background images with gradient*/
 #pates {
     background-image:
     linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
@@ -51,6 +54,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*footer*/
 
 footer a {
     color: #fff;
