@@ -2,6 +2,19 @@ body {
   background-image:url(images/bg.jpg)
 }
 
+/*navbar*/
+#navh:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/*carousel index*/
+
+#carosi {
+    height: 20em;
+    overflow: hidden;
+}
+
 /* pizza banner*/
 
 #distop {
