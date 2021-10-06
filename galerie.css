@@ -3,15 +3,34 @@ body{
   background-position: fixed;
   background-size: 2500px;
 
-  cursor: url(image/cursor.png);
+  /*__________Modifier le curseur__________*/
+  /*cursor: url(cursor.cur);*/
 }
 
+  /*__________navbar__________*/
 .navbar{
   margin-bottom: 20px;
 }
 
+  /*__________decoller les images__________*/
 .row{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
+}  
+
+
+  /*__________decoller les images__________*/
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgba(0,140,69,0.5);
+    text-decoration: none;
+}
+
+#contexa {
+    background-color: #fff;
 }
