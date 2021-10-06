@@ -20,7 +20,7 @@ body {
 #distop {
     background-image:
     linear-gradient(to bottom, rgba(0,140,69,0.5), rgba(205,33,42,0.5)),
-    url('images/pizza-fond.jpg');
+    url('images/pizban.jpg');
     color: white;
     padding: 20px;
     background-repeat: no-repeat;
@@ -67,6 +67,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*contact*/
+
+#coor a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#coor a:hover {
+    color: rgba(0,140,69,0.5);
+}
+
 
 /*footer*/
 

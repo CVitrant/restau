@@ -3,6 +3,14 @@ body {
   background-position: fixed;
   background-size: 2500px;
 }
+
+/*navbar*/
+#navh:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
 #monh2,#monh4 {
   text-align: center;
   border: groove;
