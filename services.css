@@ -15,6 +15,11 @@ body {
     overflow: hidden;
 }
 
+.capcar, .capcar h5 {
+    font-size: 2em;
+    color: rgba(0,140,69,0.7);
+}
+
 /* pizza banner*/
 
 #distop {
@@ -66,6 +71,27 @@ body {
     url('images/learningPizza.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*accueil*/
+#menu1 {
+    background-color: rgba(0,0,0,0.5)
+}
+
+#menu2 {
+    background-color:  rgba(0,140,69,0.5);
+}
+
+#menu3 {
+    background-color:  rgba(205,33,42,0.5);
+}
+
+#entremenu {
+    background-color:  rgba(255,255,255,0.5);
+}
+
+#menu2, #menu3 {
+    text-align: center;
 }
 
 /*contact*/
