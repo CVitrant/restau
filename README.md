@@ -1,4 +1,4 @@
-# restau
+# fake restaurant website
 Making a website for a fake restaurant for our web dev and mobile dev course.
 Using bootstrap as much as possible to make the website responsive, creating a home page, a gallery page, a contact page, an about us page and our services page.
 Coded by Clément Vitrant, Florian Verin and Lucas Sémérano.
