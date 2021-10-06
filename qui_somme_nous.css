@@ -1,5 +1,7 @@
 body {
-  background-image: url("image/304653.jpg");
+  background-image: url("https://ipsassets.unraid.net/uploads/monthly_2019_03/84_photography_wood.jpg.5aacb2053752cc5e60d17ae6715406a3.jpg");
+  background-position: fixed;
+  background-size: 2500px;
 }
 #monh2,#monh4 {
   text-align: center;
@@ -39,7 +41,10 @@ h5 {
 
 }
 #vignette {
- 
+display: table;
+margin-left: auto;
+margin-right: auto;
+border-spacing: 5px 1rem;
 }
  
  /*banniere pizza*/
@@ -67,4 +72,18 @@ h5 {
 #distop a:hover {
     background-color: #fff;
     color: #000000;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgba(0,140,69,0.5);
+    text-decoration: none;
+}
+
+#contexa {
+    background-color: #fff;
 }
